@@ -1,0 +1,32 @@
+{
+	"name": "@nuxtclub/slugify",
+	"author": "Lautaro Pereyra <dev.lautaropereyra@gmail.com>",
+	"description": "An easy way to integrate Slugify with NuxtJS",
+	"version": "1.0.0",
+	"main": "lib/module.js",
+	"license": "MIT",
+	"types": "types/index.d.ts",
+	"files": [
+		"lib",
+		"types/*.d.ts"
+	],
+	"scripts": {
+		"release": "git push --follow-tags && npm publish"
+	},
+	"keywords": [
+		"nuxt",
+		"module",
+		"slugify"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/nuxtclub/slugify.git"
+	},
+	"bugs": "https://github.com/nuxtclub/slugify/issues",
+	"dependencies": {
+		"slugify": "^1.6.0"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
+}
