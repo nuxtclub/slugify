@@ -18,7 +18,23 @@ export default {
 }
 ```
 
-# Typescript support
+## Extend Slugify
+
+You can extend the supported symbols, or override the existing ones with your own:
+
+```javascript
+// nuxt.config.js
+export default {
+	buildModules: ['@nuxtclub/slugify'],
+	slugify: {
+		extend: {
+			'@': 'at',
+		},
+	},
+}
+```
+
+## Typescript support
 
 Add the types to your `"types"` array in `tsconfig.json` after the `@nuxt/types` entry.
 
