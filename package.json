@@ -2,7 +2,7 @@
 	"name": "@nuxtclub/slugify",
 	"author": "Lautaro Pereyra <dev.lautaropereyra@gmail.com>",
 	"description": "An easy way to integrate Slugify with NuxtJS",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"main": "lib/module.js",
 	"license": "MIT",
 	"types": "types/index.d.ts",
