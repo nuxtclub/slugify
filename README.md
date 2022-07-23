@@ -18,6 +18,21 @@ export default {
 }
 ```
 
+## Globals
+
+You can add global/default options:
+
+```javascript
+export default {
+	buildModules: ['@nuxtclub/slugify'],
+	slugify: {
+		globals: {
+			lower: true,
+		},
+	},
+}
+```
+
 ## Extend Slugify
 
 You can extend the supported symbols, or override the existing ones with your own:
